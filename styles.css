@@ -1,0 +1,129 @@
+/* 1) Add to Reset 
+  margin:0;
+  padding:0;
+*/
+/* 2) body - background-color: *your pick* */
+/* 3) body - font-family: *you pick* ;
+/* 4) section - margin-bottom: 2rem */
+/* 5) nav - margin-bottom: 1rem */
+/* 6) .nav-list li - margin-right: 2rem;
+/* 7).intro-section - text-align: center; */
+/* 8) .projects-section - padding: 1rem 0;
+/* 9) .project-card - margin-bottom: 1rem;
+/* 10) .project-section h2 -text-align: center;
+
+/* RESET */
+* {
+  /* 1) ADD HERE*/
+  margin: 0%;padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  /* 2) & 3) ADD HERE */
+  background-color: rgb(219, 236, 70);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #313313;
+}
+
+a {
+  text-decoration: none;
+  color: #313313;
+}
+
+.wrapper {
+  padding: 1rem;
+}
+
+section {
+  /* 4) ADD HERE */
+  margin-bottom: 2rem;
+}
+nav {
+  top: 0;
+  width: 100%;
+  /* 5) ADD HERE */
+  margin-bottom: 2rem;
+  width: 100%;
+  display:grid;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 2rem;
+  background-color: rgb(195, 215, 79);
+}
+.nav-list {
+  list-style:lower-roman;color: #737b06;
+  display:flex;
+  padding: 1.5rem;
+  background-color: #ffc9eb;
+  
+}
+.nav-list li {
+  /* 6) ADD HERE */
+  margin-right: 2rem;
+}
+.nav-list li a {
+  text-decoration:solid;
+  color: #737b06;
+}
+main {
+}
+
+.intro-section {
+  min-height: 50vh;
+  padding-top: 5rem;
+  /* 7) ADD HERE */
+  text-align: center;
+}
+.project-section h2 {
+  text-align: center;
+}
+
+.project-section {
+  /* 8) ADD HERE */
+  text-align: center;
+}
+.project-card {
+  margin-bottom: 1rem;
+   border: 10px rgb(192, 205, 59) solid;
+   background-color: rgb(253, 255, 185);
+    display:ruby-base;
+    justify-content: space-between;
+    align-items:center;
+    padding-block: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.project-card img{
+width: 650px;
+  height: auto;
+}
+
+.about-section {
+  /* 9) ADD HERE */
+  margin-bottom: 1rem;
+}
+
+.about-section h2 {
+  /* 10) ADD HERE */
+  text-align: center;
+}
+
+.about-section img {
+  margin: 0 auto;
+}
+
+.img-container {
+  text-align: center;
+
+}
+
+.img-container img{
+  width: 150px;
+  height: auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+}
